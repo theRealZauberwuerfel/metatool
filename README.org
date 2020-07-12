@@ -1,0 +1,46 @@
+#+LATEX_HEADER: \usepackage{amssymb}
+
+*** What does it do?
+  One meta-tool to rule them all!
+  This will be a rather advanced project, a program that
+  generates code for a various palette of languages.
+  Nobody can stop us!
+
+*** How does it work?
+  We make extensive use of ~CLOS~ and ~FORMAT~ and expert knowledge
+  of some friends of ours.
+  For parsing the source files Haskells /Parsec/ is the right choice.
+  Maybe /QuickCheck/ can also give us more power for testing.
+  You write the code AST and then load the file with the executable.
+  It will ask you which language you want to generate and then the fun begins!
+  The DSL should be designed in a way that variations for the most
+  languages will be minimal. The functional languages are best to handle.
+
+*** Which languages to support?
+  - Ada
+  - ARM Assembly
+  - Clojure
+  - Common Lisp
+  - CompCert
+  - D
+  - Eiffel
+  - Elixir
+  - Erlang
+  - Fortran
+  - Golang
+  - Haskell
+  - Julia
+  - LLVM
+  - MIX Assembly
+  - Numpy
+  - Oz
+  - Pony
+  - ROOT
+  - Rust
+  - TikZ
+  - V
+  - VHDL
+  - Verilog
+  - WebAssembly
+  - Wolfram Language
+  - Zig
